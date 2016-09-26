@@ -1,0 +1,26 @@
+ .navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.2);
+}
+body {
+  font-family: 'Futura';
+}
+#first {
+  background-color: black;
+  height:700px;
+  width: 100%;
+}
+#second {
+  background-color: grey;
+  height:700px;
+  width: 100%;
+}
+#third {
+  background-color: lightgrey;
+  height:700px;
+  width: 100%;
+}
+#fourth {
+  background-color: white;
+  height:700px;
+  width: 100%;
+}
