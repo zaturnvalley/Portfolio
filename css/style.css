@@ -1,26 +1,58 @@
- .navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.2);
-}
+
 body {
-  font-family: 'Futura';
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333;
+  text-align: center;
 }
-#first {
+.container{
+  width:100%;
+}
+.navbar-right {
+  background-color: transparent;
+}
+
+#header {
   background-color: black;
   height:700px;
   width: 100%;
+  display:table;
+  position: relative;
+  box-sizing: border-box;
+}
+#textOne {
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+#subTextOne {
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+}
+#info {
+  font-size: 21px;
+  font-weight: 400;
 }
 #second {
-  background-color: grey;
+  background-color: white;
   height:700px;
-  width: 100%;
+  width: 50%;
 }
 #third {
-  background-color: lightgrey;
+  background-color: black;
+  color:white;
   height:700px;
   width: 100%;
 }
 #fourth {
   background-color: white;
+  color: #333;
   height:700px;
   width: 100%;
 }
