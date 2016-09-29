@@ -6,7 +6,6 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">  
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -14,21 +13,8 @@
   <title>Zach Mason</title>
 </head>
 <body>
-<!--   <div class="navbar transparent navbar-inverse navbar-fixed-top">
-    <nav class="navbar-inner">
-      <div class="container-fluid">
-        <div class="navbar-brand">
-          <a class="navbar-brand" ui-sref="home">Home</a>
-          <a class="navbar-brand" ui-sref="projects">Projects</a>
-          <a class="navbar-brand" ui-sref="about">About Me</a>
-          <a class="navbar-brand" ui-sref="contact">Contact</a>
-        </div>
-      </div>
-    </nav>
-  </div> -->
-  <div ui-view></div>
   <div class="container">
-    <ul class="nav navbar-nav navbar-right">
+    <!-- <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
           <ul class="dropdown-menu">
@@ -38,29 +24,81 @@
             <li><a href="#">Contacts</a></li>        
           </ul>
         </li>
-    </ul>
-    <div class="row">
-      <div class="col-xs-12" id="header">
-        <h1 id="textOne">Zach Mason</h1>
-        <h3 id="subTextOne">Full-Stack Web Developer</h3>
+    </ul> -->
+      <div class="row">
+        <div class="col-xs-12" id="header">
+          <h1 id="textOne">Zach Mason</h1>
+          <h3 id="subTextOne">Full-Stack Web Developer</h3>
+          <br>
+          <br>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-8 col-xs-offset-3" id="second">
-        <h3>About Me</h3>
-        <hr>
-        <p id="info">
-        I’m a full-stack, front-end leaning web developer who recently pivoted from teaching high school history. I am project-oriented and specialize in innovation, communication, and bringing unique perspectives to the table. When I’m not coding, I’m producing music, traveling, and spending time with my dog and wife.
-        </p>
-        <img class="img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAd4AAAAJGEzNjIzMDg2LTU1NTAtNGIwYS1hZDdmLWQ0YjA4Y2VlOThhNw.jpg">
+    <div class="container text-center" id="second">
+      <h2>About Me</h2>
+      <hr>
+      <div class="row">
+        <div class="col-xs-12 col-xs-offset-3">
+          <p id="info">
+          I’m a full-stack, front-end leaning web developer who recently pivoted from teaching high school history. I am project-oriented and specialize in innovation, communication, and bringing unique perspectives to the table. When I’m not coding, I’m producing music, traveling, and spending time with my dog and wife.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <img class="img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAd4AAAAJGEzNjIzMDg2LTU1NTAtNGIwYS1hZDdmLWQ0YjA4Y2VlOThhNw.jpg">
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-6" id="third">
+    <div class="container text-center" id="third">
+      <h2 id="aboutHead">About My Projects</h2>
+      <hr>
+      <div class="row">
+        <div class="col-xs-12 col-xs-offset-3">
+          <p id="aboutProjects">
+          During my 12 week immersive course through General Assembly, I completed 5 sprint development projects in an agile environment. Working independently and collaboratively, these projects utilized HTML, CSS, Javascript, MEAN stack (MongoDB, Express, Angular.js, Node.js), SQL, and Ruby on Rails.
+          </p>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12" id="fourth">
+        <h2>My Projects</h2>
+        <hr>
+      </div>
+    <div class="row">
+      <div class="col-xs-12" id="fourth">
+        <h3>Game Ranker</h3>
+        <p>
+          A full stack app that allows you to search a video game API and rate / review games. App uses HTML, CSS, Javascript, Node.js, SQL, Sequelize, Express, AJAX, Bcrypt, EJS &amp; EJS Layouts, &amp; Passport. <a href="http://gameranker.herokuapp.com/">Link to Game Ranker</a> 
+        </p>
+      </div>
+    </div>
+      <hr>
+    <div class="row">
+      <div class="col-xs-12" id="fourth">
+        <h3>Chat Emoji</h3>
+        <p>
+          This collaborative app was designed to assist users to find and live chat with like-minded patrons. Technologies Used: Ruby on Rails + Active Record, Web Socket / Action Cable, User Authentication, HTML / CSS, Postgres, Coffee Script, Wireframes, Emoji Picker Gem, and Bcrypt.  <a href="http://chat-emoji.herokuapp.com/">Chat Emoji</a> 
+        </p>
+      </div>
+    </div>
+      <hr>
+    <div class="row">
+      <div class="col-xs-12" id="fourth">
+        <h3>Game of War + 52 Card Pick Up</h3>
+        <p>
+          Utilized HTML, CSS, Javascript, jQuery to create a game of war and 52 card pick up simulation. <a href="https://zaturnvalley.github.io/GameOfWar/">Game of War</a> 
+        </p>
+      </div>
+    </div>
+      <hr>
+    <div class="row">
+      <div class="col-xs-12" id="fourth">
+        <h3>Resume Wordify</h3>
+        <p>
+          A sprint development fullstack collaborative app completed during a 24 hour hackathon. Wordifier takes any job description and builds a cloud map of the main keywords on the page. Technologies used: MongoDb, Express.js, Angular.js, Node.js, Mongoose, JWT.
+        </p>
       </div>
     </div>
   </div>
