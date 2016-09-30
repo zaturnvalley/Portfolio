@@ -8,7 +8,7 @@
   <script src="js/app.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">  
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <title>Zach Mason</title>
 </head>
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="#aboutProjectBeginning">
                         <i class="fa fa-laptop fa-2x"></i>
                         <span class="nav-text">
                             Projects
@@ -43,29 +43,19 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="#details">
                        <i class="fa fa-list fa-2x"></i>
                         <span class="nav-text">
-                            Details
+                            Project Details
                         </span>
                     </a>
                     
                 </li>
-                <li class="has-subnav">
-                    <a href="#">
-                       <i class="fa fa-folder-open fa-2x"></i>
-                        <span class="nav-text">
-                            Resume
-                        </span>
-                    </a>
-                   
-                </li>
-                
                 <li>
-                    <a href="#">
+                    <a href="#contact">
                        <i class="fa fa-info fa-2x"></i>
                         <span class="nav-text">
-                            Contact
+                            Resume &amp; Contact
                         </span>
                     </a>
                 </li>
@@ -89,48 +79,45 @@
       <h2>About Me</h2>
       <hr>
       <div class="row">
-        <div class="col-xs-12 col-xs-offset-3">
+        <div class="col-xs-8 col-xs-offset-2">
           <p id="info">
           I’m a full-stack, front-end leaning web developer who recently pivoted from teaching high school history. I am project-oriented and specialize in innovation, communication, and bringing unique perspectives to the table. When I’m not coding, I’m producing music, traveling, and spending time with my dog and wife.
           </p>
         </div>
       </div>
+      <br>
+      <br>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-8 col-xs-offset-2">
           <img class="img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAd4AAAAJGEzNjIzMDg2LTU1NTAtNGIwYS1hZDdmLWQ0YjA4Y2VlOThhNw.jpg" alt="Picture Of Me">
         </div>
       </div>
     </div>
 
-  <!-- Skills -->
-<!--   <div class="container text-center">
-    <h2>Skills</h2>
-    <div class="row">
-      <ul class="list-inline">
-        <li></li>
-      </ul>
-    </div>
-  </div> -->
-  <!-- Project Info -->
     <div class="container text-center" id="aboutProjectBeginning">
       <h2 id="aboutHead">About My Projects</h2>
       <hr>
       <div class="row">
-        <div class="col-xs-12 col-xs-offset-3">
+        <div class="col-xs-8 col-xs-offset-2">
           <p id="aboutProjects">
           During my 12 week immersive course through General Assembly, I completed 5 sprint development projects in an agile environment. Working independently and collaboratively, these projects utilized HTML, CSS, Javascript, MEAN stack (MongoDB, Express, Angular.js, Node.js), SQL, and Ruby on Rails.
           </p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <img src="./img/mean.jpg" class="img-responsive" alt="Mean Stack">
+        </div>
+      </div>
     </div>
   <!-- Project Specifics -->
     <div class="row">
-      <div class="col-xs-12" id="fourth">
+      <div class="col-xs-12" id="details">
         <h2>My Projects</h2>
         <hr>
       </div>
     <div class="row">
-      <div class="col-xs-12" id="fourth">
+      <div class="col-xs-12" class="fourth">
         <h3>Game Ranker</h3>
         <img src="./img/gameranker.jpg" alt="Game Ranker Image" class="img-responsive">
         <p>
@@ -140,7 +127,7 @@
     </div>
       <hr>
     <div class="row">
-      <div class="col-xs-12" id="fourth">
+      <div class="col-xs-12" class="fourth">
         <h3>Resume Wordify</h3>
         <img src="./img/wordify.jpg" alt="Resume Wordify Image" class="img-responsive">
         <p>
@@ -149,7 +136,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12" id="fourth">
+      <div class="col-xs-12" class="fourth">
         <h3>Chat Emoji</h3>
         <img src="./img/emoji1.jpg" alt="Chat Emoji Image" class="img-responsive">
         <p>
@@ -159,7 +146,7 @@
     </div>
       <hr>
     <div class="row">
-      <div class="col-xs-12" id="fourth">
+      <div class="col-xs-12" class="fourth">
         <h3>Game of War + 52 Card Pick Up</h3>
         <img src="./img/gamewar.jpg" alt="Chat Emoji Image" class="img-responsive">
         <p>
@@ -167,21 +154,39 @@
         </p>
       </div>
     </div>
-      <hr>
   </div>
   <!-- Footer -->
-  <div class="container">
+  <div class="container" id="contact">
+    <h2>Connect</h2>
+    <hr>
     <div class="row">
       <div class="col-xs-12">
+        <h2 id="resume">Resume</h2>
+          <ul class="list-inline">
+            <li>
+              <p><a href="https://resume.creddle.io/resume/2wv6a7mp58"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>Creddle Resume</a></p>
+            </li>
+            <li>
+              <p><a href="http://textuploader.com/daowz"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>Text Resume</p></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <br>
+    <h2>Seattle, WA</h2>
+    <br>
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Find Me Online</h2>
         <ul class="list-inline">
           <li>
-            <a href="https://github.com/zaturnvalley"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+            <a href="https://github.com/zaturnvalley"><p>Github</p><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/zach-mason"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/zach-mason"><p>Linkedin</p><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a href="mailto:zacharycmason@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+            <a href="mailto:zacharycmason@gmail.com"><p>Email</p><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
           </li>
         </ul>
       </div>
