@@ -18,6 +18,7 @@ font-size:20px;
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
 overflow:visible;
+background: #00655C;
 }
 
 .main-menu {
@@ -199,6 +200,12 @@ h2{
   background-size: cover;
   width: 100%;
 }
+.projectDetails{
+  font-size: 2em;
+  font-weight: 100;
+  color: black;
+  width:100%;
+}
 #contact {
   background-color: #00655C;
   color: white;
@@ -207,31 +214,12 @@ h2{
   height:850px;
 }
 
-.btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: rgba(211,211,211,0.5);
-}
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.7);
-}
-
-.btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
-}
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
-}
 hr{
   width: 30%;
+}
+.icons{
+  color:white;
+}
+.sub{
+  color: white;
 }
