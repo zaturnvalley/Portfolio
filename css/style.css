@@ -141,26 +141,23 @@ body {
 .navbar-right {
   background-color: white;
 }
-
-#header {
-  background-image: url('https://www.nordicvisitor.com/images/norway/reine-village-lofoten-islands-norway-winter.jpg');
+#clear{
+  background-color: transparent;
+  height:350px;
+}
+header {
+  background-image: url('http://fjordtravel.no/wp-content/uploads/2013/09/Tromso.-Photo-credits-Bard-Loken-Innovatioin-Norway-1024x595.jpg');
   width: 100%;
-  height:700px;
-  display:table;
-  vertical-align: middle;
-  position: relative;
-  box-sizing: border-box;
+  height:850px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:cover;
+  background-size: cover;
 }
 #textOne {
   font-family: 'Julius Sans One', sans-serif;
   color: white;
-  text-align: center;
-  display: block;
-  font-size: 4.5em;
+  font-size: 7.5em;
   font-weight: 700;
 }
 #subTextOne {
@@ -168,7 +165,7 @@ body {
   color: white;
   text-align: center;
   display: block;
-  font-size: 24px;
+  font-size: 3em;
   font-weight: 400;
 }
 #info {
@@ -176,7 +173,7 @@ body {
   font-weight: 400;
   width:50%;
 }
-#second {
+#about {
   background-color: white;
   background-size: cover;
   width: 100%;
@@ -190,7 +187,7 @@ body {
   color:white;
   width:50%;
 }
-#third {
+#aboutProjectBeginning {
   background-color: black;
 /*  color:white;*/
   background-size: cover;
