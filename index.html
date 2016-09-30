@@ -14,18 +14,36 @@
 </head>
 <body>
   <!-- Navigation -->
-  <div class="container">
-    <!-- <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contacts</a></li>        
-          </ul>
-        </li>
-    </ul> -->
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       Zach's Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-home"></i> About Me</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-dropbox"></i> Projects</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-twitter"></i> Resume</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-twitter"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /#wrapper -->
   <!-- Header -->
       <div class="row">
         <div class="col-xs-12" id="header">
@@ -35,7 +53,7 @@
           <br>
         </div>
       </div>
-    </div>
+    </header>
   <!-- About -->
     <div class="container text-center" id="second">
       <h2>About Me</h2>
@@ -49,10 +67,20 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <img class="img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAd4AAAAJGEzNjIzMDg2LTU1NTAtNGIwYS1hZDdmLWQ0YjA4Y2VlOThhNw.jpg">
+          <img class="img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAd4AAAAJGEzNjIzMDg2LTU1NTAtNGIwYS1hZDdmLWQ0YjA4Y2VlOThhNw.jpg" alt="Picture Of Me">
         </div>
       </div>
     </div>
+
+  <!-- Skills -->
+<!--   <div class="container text-center">
+    <h2>Skills</h2>
+    <div class="row">
+      <ul class="list-inline">
+        <li></li>
+      </ul>
+    </div>
+  </div> -->
   <!-- Project Info -->
     <div class="container text-center" id="third">
       <h2 id="aboutHead">About My Projects</h2>
@@ -74,6 +102,7 @@
     <div class="row">
       <div class="col-xs-12" id="fourth">
         <h3>Game Ranker</h3>
+        <img src="./img/gameranker.jpg" alt="Game Ranker Image" class="img-responsive">
         <p>
           A full stack app that allows you to search a video game API and rate / review games. App uses HTML, CSS, Javascript, Node.js, SQL, Sequelize, Express, AJAX, Bcrypt, EJS &amp; EJS Layouts, &amp; Passport. <a href="http://gameranker.herokuapp.com/">Link to Game Ranker</a> 
         </p>
@@ -82,7 +111,17 @@
       <hr>
     <div class="row">
       <div class="col-xs-12" id="fourth">
+        <h3>Resume Wordify</h3>
+        <img src="./img/wordify.jpg" alt="Resume Wordify Image" class="img-responsive">
+        <p>
+          A sprint development fullstack collaborative app completed during a 24 hour hackathon. Wordifier takes any job description and builds a cloud map of the main keywords on the page. Technologies used: MongoDb, Express.js, Angular.js, Node.js, Mongoose, JWT.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12" id="fourth">
         <h3>Chat Emoji</h3>
+        <img src="./img/emoji1.jpg" alt="Chat Emoji Image" class="img-responsive">
         <p>
           This collaborative app was designed to assist users to find and live chat with like-minded patrons. Technologies Used: Ruby on Rails + Active Record, Web Socket / Action Cable, User Authentication, HTML / CSS, Postgres, Coffee Script, Wireframes, Emoji Picker Gem, and Bcrypt.  <a href="http://chat-emoji.herokuapp.com/">Chat Emoji</a> 
         </p>
@@ -92,27 +131,29 @@
     <div class="row">
       <div class="col-xs-12" id="fourth">
         <h3>Game of War + 52 Card Pick Up</h3>
+        <img src="./img/gamewar.jpg" alt="Chat Emoji Image" class="img-responsive">
         <p>
           Utilized HTML, CSS, Javascript, jQuery to create a game of war and 52 card pick up simulation. <a href="https://zaturnvalley.github.io/GameOfWar/">Game of War</a> 
         </p>
       </div>
     </div>
       <hr>
-    <div class="row">
-      <div class="col-xs-12" id="fourth">
-        <h3>Resume Wordify</h3>
-        <p>
-          A sprint development fullstack collaborative app completed during a 24 hour hackathon. Wordifier takes any job description and builds a cloud map of the main keywords on the page. Technologies used: MongoDb, Express.js, Angular.js, Node.js, Mongoose, JWT.
-        </p>
-      </div>
-    </div>
   </div>
   <!-- Footer -->
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <a href="https://github.com/zaturnvalley"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/zach-mason"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+        <ul class="list-inline">
+          <li>
+            <a href="https://github.com/zaturnvalley"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/zach-mason"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="mailto:zacharycmason@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
