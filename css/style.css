@@ -230,3 +230,7 @@ hr{
 .sub{
   color: white;
 }
+.noBlue{
+  color:white !important;
+  cursor: pointer;
+}
