@@ -234,3 +234,6 @@ hr{
   color:white !important;
   cursor: pointer;
 }
+.projects:hover{
+  opacity: .8;
+}
