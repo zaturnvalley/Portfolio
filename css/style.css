@@ -62,7 +62,6 @@ text-decoration:none;
 -webkit-transform:translateZ(0) scale(1,1);
 -webkit-transition:all .1s linear;
 transition:all .1s linear;
-  
 }
 
 .main-menu .nav-icon {
@@ -186,7 +185,12 @@ header {
 
 }
 #me{
-  height:340px;
+  height:310px;
+  padding-bottom: 15px;
+}
+#meanStack{
+  height: 310px;
+  margin: 0 auto;
 }
 h2{
   font-size: 2em;
