@@ -244,3 +244,6 @@ hr{
 .projects:hover{
   opacity: .8;
 }
+.headerPadding {
+  padding-top:10px;
+}
