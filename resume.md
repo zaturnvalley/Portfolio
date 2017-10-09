@@ -26,11 +26,19 @@ B.A. History 2008
 * Studied abroad in Heidelberg, Germany (2005 – 2006)
 
 PROJECTS
+<<<<<<< HEAD
 Consignment Shop App Aug 2017
 * A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
 
 Marvel Hero Explorer  Mar 2017 - Apr 2017
 * A Windows 10 App Marvel Hero App using C#, XAML, and the Marvel Hero API. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
+=======
+Consignment Shop App  Aug 2017
+* A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
+
+* Marvel Hero Explorer  Mar 2017 - Apr 2017
+A Windows 10 App Marvel Hero App using C#, XAML, and the Marvel Hero API. Link: https://github.com/zaturnvalley/MarvelHeroExplorerWin10
+>>>>>>> b08f6e53e762a80adfbdcde38b9d9da0d7c30b9c
 
 Portfolio Sep 2016
 * My personal portfolio. Contains links to all projects, personal bio, resume, and contact. Link: https://zaturnvalley.github.io/Portfolio/
