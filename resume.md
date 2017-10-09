@@ -7,7 +7,7 @@ SUMMARY
 I'm a full-stack, front-end leaning web developer with a Masters in Teaching. I am experienced with HTML, CSS, JavaScript, MEAN stack (MongoDB, Express, Angular.js, Node.js), SQL, Ruby on Rails and more. When I'm not coding, I'm producing music, traveling, and spending time with my dog and wife.
 
 SKILLS
-LANGUAGES: Javascript, HTML,  CSS, Ruby
+LANGUAGES: Javascript, HTML,  CSS, Ruby, C#
 FRAMEWORKS & LIBRARIES: Angular.js, Rails, Express.js,  Node.js, Bootstrap, jQuery
 DATABASES: SQL, MongoDB
 OTHER SKILLS: Research,  Collaboration, Leadership,  Conflict Resolution, Teaching
@@ -19,13 +19,19 @@ Web Development Immersive 2016
 
 Seattle University
 Masters in Teaching 2013
-*Endorsements: History & Social Studies.
+* Endorsements: History & Social Studies.
 
 Pepperdine University
 B.A. History 2008
 * Studied abroad in Heidelberg, Germany (2005 – 2006)
 
 PROJECTS
+Consignment Shop App  Aug 2017
+* A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
+
+* Marvel Hero Explorer  Mar 2017 - Apr 2017
+A Windows 10 App Marvel Hero App using C#, XAML, and the Marvel Hero API. Link: https://github.com/zaturnvalley/MarvelHeroExplorerWin10
+
 Portfolio Sep 2016
 * My personal portfolio. Contains links to all projects, personal bio, resume, and contact. Link: https://zaturnvalley.github.io/Portfolio/
 
@@ -45,6 +51,9 @@ Game of War + 52 Card Pick Up Aug 2016
 * Utilized HTML, CSS, Javascript, JQuery to create a game of war and 52 card pick up simulation. Link: https://zaturnvalley.github.io/GameOfWar/
 
 EMPLOYMENT
+Catalysis , Jr. Front End Developer , Seattle, WA Jan 2017 - Current, Jan 2017 - Current
+* Developing Microsoft emails and landing webpages using ExactTarget, Marketo and technologies such as HTML, CSS, AmpScript, and JavaScript. Deploying collaborative quick iterations of builds involving: QAing, unit testing, and debugging in order to deliver highly responsive marketing promotions and newsletters.
+
 General Assembly Immersive, Web Developer, Seattle, WA  Jul 2016 - Oct 2016
 * 12 week immersive course with 480 hours of instruction, 5 sprint development projects in an agile environment. Utilized HTML, CSS, Javascript, MEAN stack (MongoDB, Express, Angular.js, Node.js), SQL, Ruby on Rails.
 
