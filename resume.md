@@ -4,13 +4,13 @@ ZACH MASON
 * https://github.com/zaturnvalley
 
 SUMMARY
-I'm a full-stack, front-end leaning web developer with a Masters in Teaching. I am experienced with HTML, CSS, JavaScript, MEAN stack (MongoDB, Express, Angular.js, Node.js), SQL, Ruby on Rails and more. When I'm not coding, I'm producing music, traveling, and spending time with my dog and wife.
+I'm a full-stack, front-end leaning web developer with a Masters in Teaching. I am experienced with HTML, CSS, JavaScript, MERN stack (MongoDB, Express, ReactJS, Node.js), SQL, Ruby on Rails, Marketo, C#, Angular, React Native, and more. When I'm not coding, I'm producing music, traveling, and spending time with my dog and wife.
 
 SKILLS
-LANGUAGES: Javascript, HTML,  CSS, Ruby, C#
-FRAMEWORKS & LIBRARIES: Angular.js, Rails, Express.js,  Node.js, Bootstrap, jQuery
+LANGUAGES: JavaScript, HTML,  CSS, Ruby, C#
+FRAMEWORKS & LIBRARIES: NodeJS, Express, ReactJS, Rails, Bootstrap, jQuery
 DATABASES: SQL, MongoDB
-OTHER SKILLS: Research,  Collaboration, Leadership,  Conflict Resolution, Teaching
+OTHER SKILLS: Research, Collaboration, Leadership, Conflict Resolution, Teaching
 
 EDUCATION
 General Assembly
@@ -26,6 +26,16 @@ B.A. History 2008
 * Studied abroad in Heidelberg, Germany (2005 – 2006)
 
 PROJECTS
+
+Validation Service API June 2018
+* Built RESTful API using NodeJS, Express, PostgreSQL, Gcloud.  This API creates and / or updates data depending on success of third party vendor project's async flow into existing API, and then uses a cron job to hit a GET route to return falsey unsuccessful orders in a 2 hour span. All falsey orders are then emailed out to customer support via Mailgun, guaranteeing Fantastapack no missing orders.
+
+Consignment Shop App Aug 2017
+* A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
+
+Marvel Hero Explorer  Mar 2017 - Apr 2017
+* A Windows 10 App Marvel Hero App using C#, XAML, and the Marvel Hero API. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
+
 Consignment Shop App  Aug 2017
 * A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
 
@@ -51,7 +61,10 @@ Game of War + 52 Card Pick Up Aug 2016
 * Utilized HTML, CSS, Javascript, JQuery to create a game of war and 52 card pick up simulation. Link: https://zaturnvalley.github.io/GameOfWar/
 
 EMPLOYMENT
-Catalysis , Jr. Front End Developer , Seattle, WA Jan 2017 - Current, Jan 2017 - Current
+The Box Maker / Fantastapack, Kent, WA March 2018 - Current
+* Developing and maintaining APIs using Google Cloud, NodeJS, ExpressJS, SQL, PostgreSQL. Building and continuously integrating tools utilizing ReactJS and React-Redux for client submissions. Updating Fantastapack website using HTML, CSS, JavaScript while expediting and validating submitted customer and vendor orders via API routing, middleware, and modular services.
+
+Catalysis , Jr. Front End Developer, Seattle, WA Jan 2017 - Current, Jan 2017 - Current
 * Developing Microsoft emails and landing webpages using ExactTarget, Marketo and technologies such as HTML, CSS, AmpScript, and JavaScript. Deploying collaborative quick iterations of builds involving: QAing, unit testing, and debugging in order to deliver highly responsive marketing promotions and newsletters.
 
 General Assembly Immersive, Web Developer, Seattle, WA  Jul 2016 - Oct 2016
