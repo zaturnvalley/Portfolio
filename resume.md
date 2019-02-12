@@ -61,7 +61,10 @@ Game of War + 52 Card Pick Up Aug 2016
 * Utilized HTML, CSS, Javascript, JQuery to create a game of war and 52 card pick up simulation. Link: https://zaturnvalley.github.io/GameOfWar/
 
 EMPLOYMENT
-The Box Maker / Fantastapack, Kent, WA March 2018 - Current
+Rosetta Stone, Seattle, WA August 2018 - Current
+* Developing website modules using the ReactJS framework (JSX, Less, ES6) with E&E team at Rosetta Stone. Building components (Nav, Filter, Search), unit testing, continuous integration, A/B testing, for the business and education portal, utilizing technologies: GatsbyJS, Algolia, Jenkins, Git, and select NPM packages.
+
+The Box Maker / Fantastapack, Kent, WA March 2018 - August 2018
 * Developing and maintaining APIs using Google Cloud, NodeJS, ExpressJS, SQL, PostgreSQL. Building and continuously integrating tools utilizing ReactJS and React-Redux for client submissions. Updating Fantastapack website using HTML, CSS, JavaScript while expediting and validating submitted customer and vendor orders via API routing, middleware, and modular services.
 
 Catalysis , Jr. Front End Developer, Seattle, WA Jan 2017 - Current, Jan 2017 - Current
