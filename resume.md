@@ -7,8 +7,8 @@ SUMMARY
 I'm a full-stack, front-end leaning web developer with a Masters in Teaching. I am experienced with HTML, CSS, JavaScript, MERN stack (MongoDB, Express, ReactJS, Node.js), SQL, Ruby on Rails, Marketo, C#, Angular, React Native, and more. When I'm not coding, I'm producing music, traveling, and spending time with my dog and wife.
 
 SKILLS
-LANGUAGES: JavaScript, HTML,  CSS, Ruby, C#
-FRAMEWORKS & LIBRARIES: NodeJS, Express, ReactJS, Rails, Bootstrap, jQuery
+LANGUAGES: JavaScript, HTML, CSS, TypeScript, GraphQL
+FRAMEWORKS & LIBRARIES: NodeJS, Express, ReactJS, jQuery, Boostrap, NextJS
 DATABASES: SQL, MongoDB
 OTHER SKILLS: Research, Collaboration, Leadership, Conflict Resolution, Teaching
 
@@ -25,42 +25,13 @@ Pepperdine University
 B.A. History 2008
 * Studied abroad in Heidelberg, Germany (2005 – 2006)
 
-PROJECTS
-
-Validation Service API June 2018
-* Built RESTful API using NodeJS, Express, PostgreSQL, Gcloud.  This API creates and / or updates data depending on success of third party vendor project's async flow into existing API, and then uses a cron job to hit a GET route to return falsey unsuccessful orders in a 2 hour span. All falsey orders are then emailed out to customer support via Mailgun, guaranteeing Fantastapack no missing orders.
-
-Consignment Shop App Aug 2017
-* A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
-
-Marvel Hero Explorer  Mar 2017 - Apr 2017
-* A Windows 10 App Marvel Hero App using C#, XAML, and the Marvel Hero API. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
-
-Consignment Shop App  Aug 2017
-* A C# App that can be used by consignment shops to run their business. Includes list of vendor, items, commission, etc. Link: https://github.com/zaturnvalley/IntermediateCSharpLessons/tree/master/ConsignmentShop
-
-* Marvel Hero Explorer  Mar 2017 - Apr 2017
-A Windows 10 App Marvel Hero App using C#, XAML, and the Marvel Hero API. Link: https://github.com/zaturnvalley/MarvelHeroExplorerWin10
-
-Portfolio Sep 2016
-* My personal portfolio. Contains links to all projects, personal bio, resume, and contact. Link: https://zaturnvalley.github.io/Portfolio/
-
-Indecisive  Oct 2016
-* A MEAN stack app that helps users make decisions based on averaged data. Uses Chart.js for visualizations, MongoDB, Express.js, Angular.js, and Node.js. Link: http://indecisivelife.herokuapp.com/
-
-Game Ranker Aug 2016
-* A full stack app that allows you to search a video game API and rate / review games. Used HTML, CSS, Javascript, Node.js, SQL, Sequelize, Express, AJAX, Bcrypt, EJS & EJS Layouts, Passport. Link: http://gameranker.herokuapp.com/
-
-Chat Emoji  Sep 2016
-* A full-stack Ruby on Rails web socket app designed by a team of 4 collaboratively. The app's focus centered around helping users to find and live chat with like-minded patrons. Technologies Used: Ruby on Rails + Active Record, Web Socket / Action Cable, User Authentication, HTML / CSS, Postgres, CoffeeScript, Wireframes, Emoji Picker Gem, and Bcrypt.
-
-Resume Wordifier  Sep 2016
-* A sprint development fullstack collaborative app completed during a 24 hour hackathon. Wordifier takes any job description and builds a cloud map of the main keywords on the page. Technologies used: MongoDb, Express.js, Angular.js, Node.js, Mongoose, JWT.
-
-Game of War + 52 Card Pick Up Aug 2016
-* Utilized HTML, CSS, Javascript, JQuery to create a game of war and 52 card pick up simulation. Link: https://zaturnvalley.github.io/GameOfWar/
-
 EMPLOYMENT
+Hulu, React Developer, Remote Apr. 2021 - Current
+* Disney / Hulu - Collaborating with Ad Experience team to craft Mission Control platform, utilizing front to back integrations involving the ReactJS, GraphQL, NodeJS stack. Building, unit testing, and deploying UI components using TypeScript as driving force.
+
+Microsoft - 343 Industries, ReactJS Web & App Developer, Redmond, WA Nov. 2019 - Apr. 2021
+* Microsoft / 343 Industries - Developed Halo Waypoint website & mobile app using ReactJS, React Native, GraphQL, NextJS, Apollo, CSS, JavaScript, TypeScript, Storybook, unit testing, Azure, Figma. Collaborated with development and design team; implemented Atomic Design.
+
 Rosetta Stone, Seattle, WA August 2018 - Current
 * Developing website modules using the ReactJS framework (JSX, Less, ES6) with E&E team at Rosetta Stone. Building components (Nav, Filter, Search), unit testing, continuous integration, A/B testing, for the business and education portal, utilizing technologies: GatsbyJS, Algolia, Jenkins, Git, and select NPM packages.
 
@@ -86,3 +57,8 @@ Huntington Learning Center, Tutor, Bothell, WA  Feb 2011 - Dec 2011
 
 EFL Institute, English Teacher, Daegu, South Korea  Jul 2009 - Jul 2010
 * Managed and taught K-8th grade Korean students in reading, writing, & English.
+
+PROJECTS
+
+Validation Service API June 2018
+* Built RESTful API using NodeJS, Express, PostgreSQL, Gcloud.  This API creates and / or updates data depending on success of third party vendor project's async flow into existing API, and then uses a cron job to hit a GET route to return falsey unsuccessful orders in a 2 hour span. All falsey orders are then emailed out to customer support via Mailgun, guaranteeing Fantastapack no missing orders.
